@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cricket Scorecard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    
+      <div class="logo">Cricket Scorecard</div>
+     
+     
+    
+  </header>
+  <div class="scorecard">
+    <div class="player-info">
+      <div class="player-1">
+        <p><img src="./images/dhoni.jfif" width="75px" height="75px" alt="" style="border-radius: 50%;"></p>
+        <h2>MS Dhoni</h2>
+        <p style="font-weight: bold;">Score: <span id="virat-score" style="font-weight: bold;">0</span></p>
+        <button onclick="incrementViratScore()">Batting</button>
+      </div>
+      <div class="player-2">
+        <p><img src="./images/rohit.jfif" width="75px" height="75px" alt="" style="border-radius: 50%;"></p>
+        <h2>Rohit Sharma </h2>
+        <p style="font-weight:bold">Score: <span id="rohit-score" style="font-weight:bold">0</span></p>
+        <button onclick="incrementRohitScore()">Batting</button>
+      </div>
+    </div>
+    <div class="top-player">
+      <h2>Top Scorer</h2>
+      <p id="top-player-name" style="font-weight: bold;color: brown;"></p>
+      <p id="top-player-score" style="font-weight: bold;color: brown;"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
